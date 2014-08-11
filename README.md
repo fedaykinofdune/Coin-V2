@@ -9,10 +9,8 @@ Coin
 * RPC: 24055
 * P2P: 24057
 
-**P2Pools:**
-* US node: http://p2pool-us.coin-project.org:24002/ 1.5%
-* EU node: http://p2pool-eu.coin-project.org:24002/ 1.5%
-* Username: YourCoinAddress Password: x
+**Pools:**
+* US node: http://coin.fedaykin.us 1%
 
 **Block explorer:**
 * Abe explorer: http://explorer.coin-project.org/
@@ -25,6 +23,7 @@ server=1
 daemon=1
 rpcuser=USER
 rpcpassword=PASSWORD
+addnode=coin.fedaykin.us
 addnode=107.170.70.40
 addnode=188.226.185.251
 addnode=188.226.184.38
